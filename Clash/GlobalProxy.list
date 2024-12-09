@@ -59,8 +59,11 @@ DOMAIN-SUFFIX,nivodi.com
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,abcproxy.com
-DOMAIN-SUFFIX,moomoo.com
-DOMAIN-SUFFIX,moomoobull.com
+
+# moomoo SG
+# DOMAIN-SUFFIX,moomoobull.com
+# DOMAIN-SUFFIX,moomoo.com
+DOMAIN-KEYWORD,moomoo
 
 IP-CIDR,8.8.8.8/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve
