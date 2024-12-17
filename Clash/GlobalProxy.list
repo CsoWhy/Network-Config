@@ -63,6 +63,7 @@ DOMAIN-SUFFIX,abcproxy.com
 # MOOMOO SG
 DOMAIN-KEYWORD,moomoo
 DOMAIN-KEYWORD,futusg
+DOMAIN-KEYWORD,shortsgp.im.qcloud.com
 
 # SpeedTest
 DOMAIN-SUFFIX,speedtest.net
