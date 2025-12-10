@@ -1,0 +1,70 @@
+rules:
+######################
+# 邮箱专用分流（MAIL）
+######################
+
+# --- Gmail / Google Workspace ---
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,googlemail.com
+DOMAIN,imap.gmail.com
+DOMAIN,pop.gmail.com
+DOMAIN,smtp.gmail.com
+
+# --- Outlook / Hotmail / Live / Office365 ---
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,office.com
+DOMAIN,outlook.office365.com
+DOMAIN,smtp.office365.com
+DOMAIN,imap-mail.outlook.com
+DOMAIN,smtp-mail.outlook.com
+
+# --- Yahoo Mail ---
+DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,yahoo.co.jp
+DOMAIN-SUFFIX,ymail.com
+DOMAIN-SUFFIX,rocketmail.com
+DOMAIN,imap.mail.yahoo.com
+DOMAIN,smtp.mail.yahoo.com
+DOMAIN,pop.mail.yahoo.com
+
+# --- iCloud / Apple Mail ---
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mac.com
+DOMAIN,imap.mail.me.com
+DOMAIN,smtp.mail.me.com
+
+# --- Proton Mail (包括 Bridge) ---
+DOMAIN-SUFFIX,proton.me
+DOMAIN-SUFFIX,protonmail.com
+DOMAIN.protonmail.com
+DOMAIN,protonmail-bridge
+
+# --- Zoho Mail ---
+DOMAIN-SUFFIX,zoho.com
+DOMAIN-SUFFIX,zoho.eu
+DOMAIN-SUFFIX,zoho.in
+DOMAIN-SUFFIX,zohomail.com
+DOMAIN,imap.zoho.com
+DOMAIN,pop.zoho.com
+DOMAIN,smtp.zoho.com
+
+# --- GMX / mail.com ---
+DOMAIN-SUFFIX,gmx.com
+DOMAIN-SUFFIX,gmx.net
+DOMAIN-SUFFIX.com
+DOMAIN,imap.gmx.com
+DOMAIN.gmx.com
+DOMAIN,smtp.gmx.com
+
+#  --- PORT ---
+# DST-PORT,993   # IMAPS
+# DST-PORT,995   # POP3S
+# DST-PORT,465   # SMTPS
+# DST-PORT,587   # SMTP (Submission)
+# DST-PORT,25    # SMTP (有些运营商会封)
+# DST-PORT,143   # IMAP
+# DST-PORT,110   # POP3
