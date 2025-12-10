@@ -40,7 +40,7 @@ DOMAIN,smtp.mail.me.com
 # --- Proton Mail (包括 Bridge) ---
 DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,protonmail.com
-DOMAIN.protonmail.com
+DOMAIN,mail.protonmail.com
 DOMAIN,protonmail-bridge
 
 # --- Zoho Mail ---
@@ -55,9 +55,9 @@ DOMAIN,smtp.zoho.com
 # --- GMX / mail.com ---
 DOMAIN-SUFFIX,gmx.com
 DOMAIN-SUFFIX,gmx.net
-DOMAIN-SUFFIX.com
+DOMAIN-SUFFIX,mail.com
 DOMAIN,imap.gmx.com
-DOMAIN.gmx.com
+DOMAIN,mail.gmx.com
 DOMAIN,smtp.gmx.com
 
 #  --- PORT ---
